@@ -1,0 +1,87 @@
+.box > img {
+    height:100%;
+    width:100%;
+    background-position: center;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    
+    
+}
+
+.cont1{
+    /*border: 2px solid #952905;  */
+    width:480px;
+    height: 300px;
+    position: absolute;
+    margin-top: -100px; 
+    margin-left: 500px;
+    transform: translate(-17%, -100%); 
+    z-index: 1; 
+    padding:20px;
+    border-radius: 10px;
+    background-color: #ad7bb1;
+}
+
+.cont2{
+    /*border: 2px solid #3f0a80;  */
+    width:480px;
+    height: 30px;
+    align-content: center;
+    position: absolute;
+    margin-top: -200px; 
+    margin-left: 322px;
+    transform: translate(17%, -450%); 
+    z-index: 1; 
+    padding:20px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 35px;
+    color:brown ;
+    font-weight: bold;
+    font-family: 'Times New Roman';
+    
+    /*background-color:#fefef1;*/
+}
+
+form .display{
+    display: flex;
+}
+
+.out{
+    width: 455px !important;
+    height:40px;
+    margin-left:10px;
+}
+
+form .display input{
+    text-align: right;
+    font-size: 35px !important;
+}
+
+
+.cont1 form input{
+    border:0;
+    outline: 0;
+    width:100px;
+    height:40px;
+    border-radius: 10px;
+    margin-top: 10px ;
+    margin-left: 15px;
+    color: #fffcf0;
+    background-color: #f3d173;
+    font-size: 20px;
+    
+}
+
+.equal{
+    width:220px !important;
+    font-size: 20px;
+}
+
+.my-button {
+    cursor: pointer; 
+}
+
+.my-button:hover {
+    transform:scale(1.1)
+}
