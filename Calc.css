@@ -85,3 +85,63 @@ form .display input{
 .my-button:hover {
     transform:scale(1.1)
 }
+
+@media screen and (max-width: 954px){
+    .cont1{
+        margin-left: 250px;
+    }
+    .cont2{
+        margin-left: 90px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .cont1{
+        margin-left: 200px;
+    }
+    .cont2{
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width: 648px){
+    .cont1{
+        margin-left: 150px;
+    }
+    .cont2{
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .cont1{
+        margin-left: 100px;
+    }
+    .cont2{
+        margin-left: -40px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .cont1{
+        margin-left: 100px;
+        width: 400px;
+    }
+
+    .out{
+        width: 385px !important;
+    }
+    .cont2{
+        margin-left: -40px;
+        width:400px;
+    }
+
+    .cont1 form input{
+        width:80px;   
+    }
+
+    .equal{
+        width:180px !important;
+        font-size: 20px;
+    }
+}
